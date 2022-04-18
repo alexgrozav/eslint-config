@@ -24,5 +24,6 @@
     "package.json",
     "README.md",
     "LICENSE"
-  ]
+  ],
+  "license": "ISC"
 }
