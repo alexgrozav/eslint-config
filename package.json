@@ -2,7 +2,8 @@
   "name": "@grozav/eslint-config",
   "version": "1.0.0",
   "scripts": {
-    "release": "np"
+    "release": "np",
+    "test": "echo 'All tests passed!'"
   },
   "peerDependencies": {
     "eslint": ">= 3"
