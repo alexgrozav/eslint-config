@@ -1,6 +1,9 @@
 {
   "name": "@grozav/eslint-config",
   "version": "1.0.0",
+  "scripts": {
+    "release": "np"
+  },
   "peerDependencies": {
     "eslint": ">= 3"
   },
@@ -11,5 +14,14 @@
     "eslint-plugin-import": "2.26.0",
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-promise": "6.0.0"
-  }
+  },
+  "devDependencies": {
+    "np": "7.6.1"
+  },
+  "files": [
+    "index.js",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ]
 }
