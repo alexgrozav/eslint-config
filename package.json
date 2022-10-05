@@ -9,15 +9,15 @@
     "eslint": ">= 3"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "5.19.0",
-    "@typescript-eslint/parser": "5.19.0",
-    "eslint-config-standard": "16.0.3",
+    "@typescript-eslint/eslint-plugin": "5.39.0",
+    "@typescript-eslint/parser": "5.39.0",
+    "eslint-config-standard": "17.0.0",
     "eslint-plugin-import": "2.26.0",
     "eslint-plugin-node": "11.1.0",
-    "eslint-plugin-promise": "6.0.0"
+    "eslint-plugin-promise": "6.0.1"
   },
   "devDependencies": {
-    "np": "7.6.1"
+    "np": "^7.6.2"
   },
   "files": [
     "index.js",
