@@ -1,6 +1,6 @@
 {
   "name": "@grozav/eslint-config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "scripts": {
     "release": "np",
     "test": "echo 'All tests passed!'"
