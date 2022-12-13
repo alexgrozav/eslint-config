@@ -23,11 +23,11 @@ module.exports = {
         '@typescript-eslint'
     ],
     rules: {
-        indent: ['warn', 4],
         semi: ['warn', 'always'],
         'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
         'no-prototype-builtins': 'off',
         'max-params': 'off',
+        'indent': 'off',
         'no-undef': 'off',
         'no-unused-vars': 'off',
         'no-use-before-define': 'off',
