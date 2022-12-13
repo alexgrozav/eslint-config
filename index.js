@@ -6,7 +6,8 @@ module.exports = {
         es2021: true
     },
     extends: [
-        'standard'
+        'standard',
+        'prettier'
     ],
     parser: '@typescript-eslint/parser',
     parserOptions: {
@@ -25,11 +26,9 @@ module.exports = {
         indent: ['warn', 4],
         semi: ['warn', 'always'],
         'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
-        'no-prototype-builtins': 'off',
         'max-params': 'off',
-        'no-undef': 'off',
-        'no-unused-vars': 'off',
         'no-use-before-define': 'off',
+        'no-case-declarations': 'off',
         'max-nested-callbacks': 'off',
         '@typescript-eslint/ban-ts-comment': 'off',
         '@typescript-eslint/no-explicit-any': 'off',
