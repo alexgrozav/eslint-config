@@ -9,18 +9,18 @@
     "eslint": ">= 3"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "5.39.0",
-    "@typescript-eslint/parser": "5.39.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-config-standard": "17.0.0",
-    "eslint-plugin-import": "2.26.0",
-    "eslint-plugin-n": "^15.3.0",
+    "@typescript-eslint/eslint-plugin": "7.2.0",
+    "@typescript-eslint/parser": "7.2.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-standard": "17.1.0",
+    "eslint-plugin-import": "2.29.0",
+    "eslint-plugin-n": "^16.2.2",
     "eslint-plugin-node": "11.1.0",
-    "eslint-plugin-promise": "6.0.1",
-    "prettier": "^2.8.1"
+    "eslint-plugin-promise": "6.1.1",
+    "prettier": "^3.2.5"
   },
   "devDependencies": {
-    "np": "^7.6.2"
+    "np": "^10.0.1"
   },
   "files": [
     "index.js",
